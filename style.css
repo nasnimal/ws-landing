@@ -46,7 +46,8 @@ figure {
   margin-bottom: 113px;
 }
 
-.comment {
+.comment,
+.comment2 {
   font-size: 14px;
   opacity: 0.5;
 }
@@ -84,6 +85,7 @@ figure {
 
 .app-link-bottom {
   display: block;
+  visibility: hidden;
   padding: 10px 0;
   text-decoration: none;
   margin-right: 330px;
