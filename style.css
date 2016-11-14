@@ -2,16 +2,20 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 *{box-sizing: border-box}
 
+html {
+  font-size: 20px;
+}
+
 body {
   font-family: 'PT Sans', sans-serif;
   background-color: #DEDEDE;
-  font-size: 20px;
 }
 
 .container {
     display: flex;
-    width: 1170px;
-    margin: auto;
+    max-width: 58.500em;
+    min-width: 45.000em;
+    margin: 0 2%;
 }
 
 .header .container {
@@ -26,58 +30,94 @@ body {
 .poi .container,
 .footer .container {
   border-top: 1px rgba(0, 0, 0, 0.2) solid;
-  padding-top: 30px;
+  padding-top: 1.500em;
 }
 
 .sidewalks .container,
 .noise .container,
 .crosswalk .container,
 .poi .container {
-  padding-bottom: 100px;
+  padding-bottom: 5.000em;
 }
 
-figure {
-  margin: 0;
+.phone-hand-img {
+  width: 43.500em;
+  height: 24.500em;
+  background-image: url(img/phone-hand@1x.png);
+  background-size: cover;
+  background-position: 50%;
+}
+
+.wide-sidewalk-img {
+  width: 28.500em;
+  height: 16.000em;
+  background-image: url(img/wide-sidewalk@1x.png);
+  background-size: cover;
+  background-position: 50%;
+}
+
+.quiet-street-img {
+  width: 13.500em;
+  height: 24.000em;
+  background-image: url(img/quiet_street@1x.png);
+  background-size: cover;
+  background-position: 50%;
+}
+
+.crosswalk-img {
+  width: 28.500em;
+  height: 28.500em;
+  background-image: url(img/crosswalk@1x.png);
+  background-size: cover;
+  background-position: 50%;
+}
+.poi-img {
+  width: 28.500em;
+  height: 16.000em;
+  background-image: url(img/interesting-place@1x.png);
+  background-size: cover;
+  background-position: 50%;
 }
 
 .logo {
-  font-size: 100px;
+  font-size: 5.000em;
   font-weight: bold;
-  margin-bottom: 113px;
+  margin-bottom: 5.650rem;
 }
 
 .comment,
 .comment2 {
-  font-size: 14px;
+  font-size: 0.700em;
   opacity: 0.5;
 }
 
 .about {
-  margin-bottom: 170px;
+  margin-bottom: 8.500em;
 }
 
 .about-left {
   display: flex;
   flex-direction: column;
-  margin-right: 30px;
+  width: 13.500em;
+  margin-right: 1.500em;
 }
 
 .about-desc {
-  margin-bottom: 20px;
+  margin-bottom: 1em;
 }
 
 .about-desc:first-child {
-  margin-bottom: 200px;
-  line-height: 10px;
+  margin-bottom: 10.000em;
+  line-height: 0.500em
 }
 
 .about-top {
-  margin-bottom: 50px;
+  margin-bottom: 2.500em;
 }
 
 .app-link {
   display: block;
-  padding: 10px 0;
+  padding: 0.500em 0;
   border-top: 1px rgba(0, 0, 0, 0.2) solid;
   border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
   text-decoration: none;
@@ -86,9 +126,9 @@ figure {
 .app-link-bottom {
   display: block;
   visibility: hidden;
-  padding: 10px 0;
+  padding: 0.500em 0;
   text-decoration: none;
-  margin-right: 330px;
+  margin-right: 16.500em;
 }
 
 .app-link-img {
@@ -98,13 +138,13 @@ figure {
 .app-link .comment,
 .app-link-bottom .comment {
   display: inline-block;
-  width: 100px;
-  padding-left: 10px;
+  width: 5.000em;
+  padding-left: 0.500em;
   vertical-align: middle;
 }
 
 .article-title {
-  font-size: 48px;
+  font-size: 2.400em;
   font-weight: bold;
 }
 
@@ -115,40 +155,40 @@ figure {
 
 .about-right .comment {
   position: absolute;
-  bottom: -22px;
+  bottom: -1.100rem;
   right: 0;
 }
 
 .article-desc {
-  margin-bottom: -6px;
+  margin-bottom: -0.300em;
 }
 
 h1 {
-  width: 870px;
-  font-size: 64px;
+  font-size: 3.200em;
+  width: 43.500rem;
   font-weight: bold;
   margin: 0;
 }
 
 .title {
-  margin-bottom: 50px;
+  margin-bottom: 2.500em;
 }
 
 .sect-desc{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 270px;
-  margin-left: 30px;
-  margin-right: 30px;
+  width: 13.500em;
+  margin-left: 1.500em;
+  margin-right: 1.500em;
 }
 
 .sidewalks .container {
-  padding-left: 270px;
+  padding-left: 13.500em;
 }
 
 .crosswalk .container {
-  padding-left: 300px;
+  padding-left: 15.000em;
 }
 
 .sidewalks .article-right,
@@ -164,31 +204,33 @@ h1 {
 .crosswalk .article-left .comment,
 .poi .article-left .comment {
   position: absolute;
-  bottom: -22px;
+  bottom: -1.100rem;
   right: 0;
 }
 
+
+
 h2 {
   margin: 0;
-  margin-top: -18px;
+  margin-top: -0.900rem;
 }
 
 .footer .container {
   display: flex;
-  padding-bottom: 60px;
+  padding-bottom: 3.000em;
 }
 
 .links-1 {
-  width: 270px;
-  margin-left: 30px;
-  margin-right: 30px;
+  width: 13.500em;
+  margin-left: 1.500em;
+  margin-right: 1.500em;
 }
 
 a {
   display: block;
   text-decoration: none;
   color: #383B4D;
-  padding-bottom: 5px;
+  padding-bottom: 0.250em;
 }
 
 a:visited {
