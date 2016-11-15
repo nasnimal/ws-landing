@@ -38,45 +38,6 @@ body {
   padding-bottom: 5.000em;
 }
 
-.phone-hand-img {
-  width: 43.500em;
-  min-height: 24.500em;
-  background-image: url(img/phone-hand@1x.png);
-  background-size: cover;
-  background-position: 50%;
-}
-
-.wide-sidewalk-img {
-  width: 28.500em;
-  height: 16.000em;
-  background-image: url(img/wide-sidewalk@1x.png);
-  background-size: cover;
-  background-position: 50%;
-}
-
-.quiet-street-img {
-  width: 13.500em;
-  height: 24.000em;
-  background-image: url(img/quiet_street@1x.png);
-  background-size: cover;
-  background-position: 50%;
-}
-
-.crosswalk-img {
-  width: 28.500em;
-  height: 28.500em;
-  background-image: url(img/crosswalk@1x.png);
-  background-size: cover;
-  background-position: 50%;
-}
-.poi-img {
-  width: 28.500em;
-  height: 16.000em;
-  background-image: url(img/interesting-place@1x.png);
-  background-size: cover;
-  background-position: 50%;
-}
-
 .logo {
   font-size: 5.000em;
   font-weight: bold;
@@ -149,6 +110,7 @@ body {
 .about-right {
   display: flex;
   position: relative;
+  width: 43.500em;
 }
 
 .about-right .comment {
@@ -159,6 +121,44 @@ body {
 
 .article-desc {
   margin-bottom: -0.300em;
+}
+
+.phone-hand-img {
+  width: 100%;
+  background-image: url(img/phone-hand@1x.png);
+  background-size: cover;
+  background-position: 50%;
+}
+
+.wide-sidewalk-img {
+  width: 100%;
+  height: 16.000em;
+  background-image: url(img/wide-sidewalk@1x.png);
+  background-size: cover;
+  background-position: 50%;
+}
+
+.quiet-street-img {
+  width: 100%;
+  height: 24.000em;
+  background-image: url(img/quiet_street@1x.png);
+  background-size: cover;
+  background-position: 50%;
+}
+
+.crosswalk-img {
+  width: 100%;
+  height: 28.500em;
+  background-image: url(img/crosswalk@1x.png);
+  background-size: cover;
+  background-position: 50%;
+}
+.poi-img {
+  width: 100%;
+  height: 16.000em;
+  background-image: url(img/interesting-place@1x.png);
+  background-size: cover;
+  background-position: 50%;
 }
 
 h1 {
@@ -192,10 +192,28 @@ h1 {
 .sidewalks .article-right,
 .noise .article-left,
 .crosswalk .article-left,
-.poi .article-left  {
+.poi .article-left {
   display: flex;
   position: relative;
 }
+
+.sidewalks .article-right {
+  width: 28.500em;
+}
+
+.noise .article-left {
+  width: 13.500em;
+}
+
+.crosswalk .article-left {
+  width: 28.500em;
+}
+
+.poi .article-left {
+  width: 28.500em;
+}
+
+
 
 .sidewalks .article-right .comment,
 .noise .article-left .comment,
