@@ -9,6 +9,10 @@ body {
   background-color: #DEDEDE;
 }
 
+.wrapper {
+  padding: 0 2%;
+}
+
 .container {
     display: flex;
     max-width: 58.500em;
