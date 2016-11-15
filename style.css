@@ -1,5 +1,3 @@
-
-@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 *{box-sizing: border-box}
 
 html {
@@ -15,7 +13,7 @@ body {
     display: flex;
     max-width: 58.500em;
     min-width: 45.000em;
-    margin: 0 2%;
+    margin: auto;
 }
 
 .header .container {
@@ -42,7 +40,7 @@ body {
 
 .phone-hand-img {
   width: 43.500em;
-  height: 24.500em;
+  min-height: 24.500em;
   background-image: url(img/phone-hand@1x.png);
   background-size: cover;
   background-position: 50%;
@@ -98,7 +96,7 @@ body {
 .about-left {
   display: flex;
   flex-direction: column;
-  width: 13.500em;
+  min-width: 13.500em;
   margin-right: 1.500em;
 }
 
